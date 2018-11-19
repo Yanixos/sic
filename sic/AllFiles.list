@@ -1,0 +1,13 @@
+/etc
+/boot
+/var
+/lib64
+/lib/modules
+/lib/systemd
+/usr/bin
+/usr/sbin
+/usr/local/bin
+/usr/local/sbin
+/bin
+/sbin
+/home/n1x/Test
