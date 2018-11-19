@@ -65,3 +65,4 @@ def HashDir(dir,table_name,hasher,verbose,update_check):
           fw.close()
              
     return total_paths
+########################################################################
