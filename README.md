@@ -11,6 +11,17 @@ Each time you have a stable set of files you can commit them to store their prop
 The big difference with Git is that sic does not keep track of the different contents of the files that are managed.
 This is why we can call it an UnVersioned Control System (UVCS).
 
-sic is able to manage hundreds of thousands of files with a total size of several terabytes. This kind of file tree could not be managed by Git.
-
 Using sic you can also easily detect duplicates and remove them.
+
+Usage :
+	git clone https://github.com/Yanixos/sic.git
+	
+	cd sic/sic
+	
+	chmod +x install.sh
+	
+	./install.sh
+	
+	Follow the instruction
+	
+	Feel safe ^^
