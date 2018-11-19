@@ -16,18 +16,18 @@ sudo apt-get -y install python3-dev
 sudo apt-get -y install python3-pip
 sudo apt-get -y install postgresql libpq-dev postgresql-client postgresql-client-common
 sudo apt-get -y install daemontools daemontools-run
-#sudo easy_install hashlib
-#clear
-#sudo pip3 install -r requirements.txt
-#sudo pip install psycopg2==2.7.3.2
-#pip install psycopg2==2.7.3.2
-#sudo pip3 install psycopg2==2.7.3.2
-#pip3 install psycopg2==2.7.3.2
-#clear
+sudo easy_install hashlib
+clear
+sudo pip3 install -r requirements.txt
+sudo pip install psycopg2==2.7.3.2
+pip install psycopg2==2.7.3.2
+sudo pip3 install psycopg2==2.7.3.2
+pip3 install psycopg2==2.7.3.2
+clear
 sudo mkdir /usr/share/sic
 clear
 sudo cp -r * /usr/share/sic/
-#sudo echo "alias sic='sudo /usr/share/sic/sic'" >> ~/.bashrc
+sudo echo "alias sic='sudo /usr/share/sic/sic'" >> ~/.bashrc
 sudo chmod 700 /usr/share/sic/*.py /usr/share/sic/*.sh /usr/share/sic/AllFiles.list
 clear
 printf "For security reasons this tool requires a mail for :\n"
